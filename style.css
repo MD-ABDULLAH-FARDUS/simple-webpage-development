@@ -1,0 +1,164 @@
+/*= = = = = = = = = = = = = = = = = = = =
+                BASIC SETUP
+= = = = = = = = = = = = = = = = = = = =*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    max-width: 100%;
+    font-size: 62.5%;
+    font-family: tahoma;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.9rem;
+    margin: 0 .5rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/*= = = = = = = = = = = = = = = = = = = =
+           REUSABLE COMPONENT
+= = = = = = = = = = = = = = = = = = = =*/
+
+.row {
+    /* max-width: 114rem; */
+    margin: 0 auto;
+}
+
+h2{
+    color: #fff;
+    font-family: tahoma;
+    margin: auto;
+    font-size: 7rem;
+}
+
+/*= = = = = = = = = = = = = = = = = = = =
+            HEADER SECTION
+= = = = = = = = = = = = = = = = = = = =*/
+
+header {
+    width: 100%;
+    background: linear-gradient(rgba(208, 137, 241, 0.3),rgba(250, 93, 93, 0.9)), url(img/sleeping.jpeg) ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-top: 19rem;
+    background-position: center center;
+    height: 85vh;
+    margin: auto;
+}
+
+.main-nav {
+    float: right;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.main-nav li:hover a {
+    color: #393939;
+    cursor: pointer;
+    background: #f7fcff;
+    border-radius: .5rem;
+    box-shadow: inset 0rem .2rem .5rem;
+}
+
+.lazy-boy {
+    float: left;
+    padding: 2rem 0;
+}
+
+.lazy-boy a {
+    font-size: 2.9rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    transition: .2s;
+}
+
+.lazy-boy a:hover {
+    color: #393939;
+    text-transform: uppercase;
+    translate: 20deg;
+}
+
+.moto {
+    
+}
+
+.title {
+    padding: 22rem;
+    margin: auto;
+}
+
+/*= = = = = = = = = = = = = = = = = = = =
+            ACTIVITY SECTION
+= = = = = = = = = = = = = = = = = = = =*/
+
+.activity-section {
+    width: 100%;
+    background: linear-gradient(rgba(137, 241, 232, 0.3),rgba(137, 241, 232, 0.4)), url(img/mobile.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 19rem;
+    background-position: center center;
+    height: 85vh;
+    margin: auto;
+}
+
+.mobile {
+    padding: 4rem;
+}
+
+.about-activity {
+    margin: 4rem 20rem 1rem 18rem;
+    width: 40%;
+}
+
+.about-activity p {
+    font-size: 3rem;
+    text-align: justify;
+}
+
+/*= = = = = = = = = = = = = = = = = = = =
+            ACTIVITY SECTION
+= = = = = = = = = = = = = = = = = = = =*/
+
+.contact-section {
+    width: 100%;
+    background: linear-gradient(rgba(36, 39, 39, 0.4),rgba(36, 39, 39, 0.4)), url(img/relax.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 19rem;
+    background-position: center top;
+    height: 95vh;
+    margin: auto;
+}
+
+.acitvity{
+    margin: 0rem 20rem 1rem 6rem;
+    width: 70%;
+    padding: 25rem;
+}
+
+.acitvity p {
+    font-size: 3rem;
+    text-align: justify;
+    color: white;
+}
