@@ -49,7 +49,7 @@ h2{
 
 header {
     width: 100%;
-    background: linear-gradient(rgba(208, 137, 241, 0.3),rgba(250, 93, 93, 0.9)), url(img/sleeping.jpeg) ;
+    background: linear-gradient(rgba(208, 137, 241, 0.3),rgba(250, 93, 93, 0.9)), url(sleeping.jpeg) ;
     background-attachment: scroll;
     background-repeat: no-repeat;
     margin-top: 19rem;
@@ -111,7 +111,7 @@ header {
 
 .activity-section {
     width: 100%;
-    background: linear-gradient(rgba(137, 241, 232, 0.3),rgba(137, 241, 232, 0.4)), url(img/mobile.jpg) ;
+    background: linear-gradient(rgba(137, 241, 232, 0.3),rgba(137, 241, 232, 0.4)), url(mobile.jpg) ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@ header {
 
 .contact-section {
     width: 100%;
-    background: linear-gradient(rgba(36, 39, 39, 0.4),rgba(36, 39, 39, 0.4)), url(img/relax.png) ;
+    background: linear-gradient(rgba(36, 39, 39, 0.4),rgba(36, 39, 39, 0.4)), url(relax.png) ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
